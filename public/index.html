@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <table id="calc-case">
+        <tbody>
+            <tr id="calc-screen-outer">
+                <td id="calc-screen">0</td>
+            </tr>
+            <tr>
+                <td><button class="red-btn" onclick="btnClicked('clear')">C</button></td>
+                <td><button class="green-btn" onclick="btnClicked('parenthesis')">()</button></td>
+                <td><button class="green-btn" onclick="btnClicked('percent')">%</button></td>
+                <td><button class="rm-btn" onclick="btnClicked('backspace')"><</button></td>
+            </tr>
+            <tr>
+                <td><button class="white-btn" onclick="btnClicked('7')">7</button></td>
+                <td><button class="white-btn" onclick="btnClicked('8')">8</button></td>
+                <td><button class="white-btn" onclick="btnClicked('9')">9</button></td>
+                <td><button class="green-btn" onclick="btnClicked('division')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="white-btn" onclick="btnClicked('4')">4</button></td>
+                <td><button class="white-btn" onclick="btnClicked('5')">5</button></td>
+                <td><button class="white-btn" onclick="btnClicked('6')">6</button></td>
+                <td><button class="green-btn" onclick="btnClicked('multiplication')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="white-btn" onclick="btnClicked('1')">1</button></td>
+                <td><button class="white-btn" onclick="btnClicked('2')">2</button></td>
+                <td><button class="white-btn" onclick="btnClicked('3')">3</button></td>
+                <td><button class="green-btn" onclick="btnClicked('subtraction')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="white-btn" onclick="btnClicked('point')">.</button></td>
+                <td><button class="white-btn" onclick="btnClicked('0')">0</button></td>
+                <td><button class="equal-btn" onclick="btnClicked('equal')">=</button></td>
+                <td><button class="green-btn" onclick="btnClicked('addition')">+</button></td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calc-case {
+    background-color: black;
+    border-radius: 23px;
+    padding: 15px;
+    box-shadow: 0 0 100px rgb(133, 93, 93);
+}
+
+#calc-screen-outer {
+    padding: 10px;
+    border: 0;
+    margin: 0;
+    display: flex;
+    height: 90px;
+    
+}
+#calc-screen {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    width: 435px;
+    
+}
+
+.red-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(77, 72, 72);
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+.red-btn:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(138, 124, 124);
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.green-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(77, 72, 72);
+    color: rgb(0, 197, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.green-btn:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(105, 94, 94);
+    color: rgb(0, 197, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.white-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(77, 72, 72);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.white-btn:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(99, 88, 88);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.equal-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(29, 177, 0);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.equal-btn:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(38, 221, 1);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.rm-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(189, 0, 0);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.rm-btn:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(245, 0, 0);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
